@@ -1,0 +1,74 @@
+{
+    "company": {
+        "type": "xpath",
+        "value": "//*[@id='navbarDropdownMenuLink'][normalize-space()='Company']"
+    },
+    "career": {
+        "type": "css",
+        "value": "div[class='new-menu-dropdown-layout-6-mid-container'] a:nth-child(2)"
+    },
+    "seeAllTeams": {
+        "type": "xpath",
+        "value": "//a[@class='btn btn-outline-secondary rounded text-medium mt-5 mx-auto py-3 loadmore']"
+    },
+    "searchBox": {
+        "type": "id",
+        "value": "searchBox"
+    },
+    "acceptCookies": {
+        "type": "id",
+        "value": "wt-cli-accept-all-btn"
+    },
+    "teamsBlockTitle": {
+        "type": "xpath",
+        "value": "//h3[normalize-space()='Find your calling']"
+    },
+    "AllTeamsBlock": {
+        "type": "xpath",
+        "value": "//div[@class='col-12 d-flex flex-wrap p-0 career-load-more']"
+    },
+    "careerLocationBlock": {
+        "type": "xpath",
+        "value": "//h3[@class='category-title-media ml-0']"
+    },
+    "lifeAtInsiderBlock": {
+        "type": "xpath",
+        "value": "//h2[normalize-space()='Life at Insider']"
+    },
+    "seeAllQAjobs": {
+        "type": "css",
+        "value": "a[href*='department=qualityassurance']"
+    },
+    "filterByLocation": {
+        "type": "css",
+        "value": "#select2-filter-by-location-container"
+    },
+    "IstanbulTurkiyeFilter": {
+        "type": "xpath",
+        "value": "//li[@class='select2-results__option' and text()='Istanbul, Turkiye']"
+    },
+    "jobTitles": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div/div/span"
+    },
+    "jobLocations": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div/div/div"
+    },
+    "jobCard": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div[1]/div"
+    },
+    "viewRole": {
+        "type": "xpath",
+        "value": "//*[@id='jobs-list']/div[1]/div/a"
+    },
+    "blankPage": {
+        "type": "xpath",
+        "value": "//*[@id='career-position-list']"
+    },
+    "announceBar": {
+        "type": "xpath",
+        "value": "//div[@class='announce-info d-flex flex-row align-items-center']"
+    }
+}
